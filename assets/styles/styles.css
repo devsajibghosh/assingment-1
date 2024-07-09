@@ -16,6 +16,10 @@
 main{
   margin: 10px 0;
 }
+.container{
+  background-color: #fff;
+  margin: 0 150px;
+}
 /* .btn{
 
 } */
@@ -88,3 +92,105 @@ nav ul li a button{
   font-weight: 600;
   color: white;
 }
+
+/* web development area */
+
+#web-development{
+  margin: 70px 0;
+}
+
+#web-development .web-content{
+  padding: 80px 95px;
+  background-color: #FAFAFB;
+  border-radius: 5px;
+}
+.web-content h2{
+  text-align: center;
+  font-weight: 800;
+  font-size: 32px;
+  color: #0D1321;
+  text-transform: capitalize;
+}
+.web-content p{
+  text-align: center;
+  color: #0D1321;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 30px 0;
+  line-height: 2rem;
+}
+
+/*! web item 1 */
+.web-content .web-item1{
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 30px 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.web-item1 .item-content h3{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 2rem;  
+}
+
+.web-item1 .item-content p{
+  text-align: start;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.web-item1 .item-content button{
+  padding: 14px 24px;
+  border: 1px solid #0D1321;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0D1321;
+}
+
+/*? web item 2 */
+
+.web-content .web-item2{
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 30px 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.web-item2 .item-content{
+    width: 60%;
+}
+
+.web-item2 .item-content h3{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 2rem;  
+}
+
+.web-item2 .item-content p{
+  text-align: start;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.web-item2 .item-content button{
+  padding: 14px 24px;
+  border: 1px solid #0D1321;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0D1321;
+}
+/* *web item-1 and 3 sam just change image */
+
+
+
