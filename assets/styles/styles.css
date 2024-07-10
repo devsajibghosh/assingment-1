@@ -17,12 +17,8 @@ main{
   margin: 10px 0;
 }
 .container{
-  background-color: #fff;
   margin: 0 150px;
 }
-/* .btn{
-
-} */
 
 /* share style end */
 
@@ -362,7 +358,7 @@ nav ul li a button{
 .technologies .js-tech{
   display: flex;
   gap: 10px;
-  border: 1px solid #0D1321;
+  border: 0.5px solid #d2d1d1;
   border-radius: 10px;
   padding: 20px;
   /* nesting */
@@ -432,4 +428,24 @@ input[type=text]{
 
 /* footer area */
 
+footer{
+  background-color: #F7F8F8;
+}
 
+footer .footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer-content small{
+  font-size: 16px;
+  font-weight: 600;
+}
+footer img{
+  width: 25px;
+  height: 25px;
+}
+
+/* footer part end */
